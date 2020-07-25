@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoTo APP</title>
+</head>
+<style>
+body{
+    text-align: center;
+}
+#mainForm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+    width: 50%;
+    box-shadow: 2px 2px 3px black;
+    max-width: 500px;
+    min-width: 350px;
+}
+#name{
+    margin-left:  90px; ;
+}
+#fname{
+    margin-left:  22px; ;
+}
+#age{
+    margin-left:  107px; ;
+}
+#table{
+    margin-top: 5px;
+    border: 1px black solid;
+    width: 80%;
+    color: white;
+    background-color: brown;
+}
+th,td{
+    border: 1px white solid;
+}
+#bttn{
+    margin-left: 195px;
+    width: 20%;
+    background-color: goldenrod;
+    color: white;
+}</style>
+<body>
+    <div id="mainForm">
+        <p >Unlimited Data Entry</p>
+        <div><label for="name">Name</label>
+            <input id="name" type="text"></div>
+        <div><label for="fname">Father Name</label>
+            <input id="fname" type="text"></div>
+        <div><label for="age">Age</label>
+            <input id="age" type="number"></div>
+        <button id="bttn" type="submit" onclick="getIn()">submit</button>
+    </div>
+    <table  id='table'>
+        
+        <tr><th>Name</th><th>Father Name</th><th>Age</th></tr>
+
+    </table>
+
+
+
+
+
+<script src="todoapp.js"></script>
+</body>
+</html>
